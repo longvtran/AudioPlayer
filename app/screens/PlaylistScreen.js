@@ -4,7 +4,7 @@ import TrackPlayer, {usePlaybackState} from 'react-native-track-player';
 
 import Player from '../components/Player';
 import playlistData from '../data/playlist.json';
-import localTrack from '../resources/pure.m4a'
+import localTrack from '../resources/pure.m4a';
 
 export default function PlaylistScreen() {
   const playbackState = usePlaybackState();

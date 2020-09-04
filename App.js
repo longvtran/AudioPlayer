@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import {createAppContainer} from 'react-navigation';
 
 import {createStackNavigator} from 'react-navigation-stack';
 
-import LandingScreen from "./app/screens/LandingScreen";
-import PlaylistScreen from "./app/screens/PlaylistScreen";
+import LandingScreen from './app/screens/LandingScreen';
+import PlaylistScreen from './app/screens/PlaylistScreen';
 
 const AppNavigator = createStackNavigator(
   {
