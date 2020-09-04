@@ -1,7 +1,7 @@
 import React from "react";
-import { createAppContainer } from "react-navigation";
+import {createAppContainer} from 'react-navigation';
 
-import { createStackNavigator } from "react-navigation-stack";
+import {createStackNavigator} from 'react-navigation-stack';
 
 import LandingScreen from "./app/screens/LandingScreen";
 import PlaylistScreen from "./app/screens/PlaylistScreen";
@@ -9,13 +9,13 @@ import PlaylistScreen from "./app/screens/PlaylistScreen";
 const AppNavigator = createStackNavigator(
   {
     Landing: {
-      screen: LandingScreen
+      screen: LandingScreen,
     },
     Playlist: {
-      screen: PlaylistScreen
+      screen: PlaylistScreen,
     },
   },
-  { initialRouteName: "Landing" }
+  {initialRouteName: 'Landing'},
 );
 
 const AppContainer = createAppContainer(AppNavigator);
